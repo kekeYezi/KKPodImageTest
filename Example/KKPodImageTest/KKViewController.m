@@ -29,9 +29,9 @@
 }
 
 - (void)testImage {
-//    self.bgImageV.image = [UIImage imageNamed:@"KKPodImageTest.bundle/image_test_bg"];
+    self.bgImageV.image = [UIImage imageNamed:@"KKPodImageTest.bundle/image_test_bg"];
     
-    self.bgImageV.image = [UIImage KK_imageNamed:@"image_test_bg"];
+//    self.bgImageV.image = [UIImage KK_imageNamed:@"image_test_bg"];
 }
 
 - (void)didReceiveMemoryWarning

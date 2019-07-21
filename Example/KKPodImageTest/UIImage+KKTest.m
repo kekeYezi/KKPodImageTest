@@ -14,7 +14,7 @@
     UIImage *resultImage =nil;
     NSString *bundlePath = [[NSBundle bundleForClass:NSClassFromString(@"KKPodImageTest")].resourcePath stringByAppendingPathComponent:@"KKPodImageTest.bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
-    
+    NSLog(@"%@", bundlePath);
     resultImage = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
     
     //    resultImage = [UIImage imageNamed:[NSString stringWithFormat:@"ModuleNews.bundle/%@",imageName]];

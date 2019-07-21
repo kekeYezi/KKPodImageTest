@@ -21,3 +21,56 @@ bundleName方法
 
 
 
+
+
+多张图片
+
+imageName
+
+![image-20190721103811487](/Users/keke/Library/Application Support/typora-user-images/image-20190721103811487.png)
+
+
+
+
+
+bundleName
+
+稍微多了点
+
+![image-20190721103850008](/Users/keke/Library/Application Support/typora-user-images/image-20190721103850008.png)
+
+
+
+第二种方式
+
+
+
+![image-20190721104425243](/Users/keke/Library/Application Support/typora-user-images/image-20190721104425243.png)
+
+
+
+![image-20190721104534108](/Users/keke/Library/Application Support/typora-user-images/image-20190721104534108.png)
+
+
+
+
+
+![image-20190721104605718](/Users/keke/Library/Application Support/typora-user-images/image-20190721104605718.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
