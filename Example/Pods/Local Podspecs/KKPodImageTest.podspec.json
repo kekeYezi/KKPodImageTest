@@ -21,7 +21,9 @@
   "source_files": "KKPodImageTest/Classes/**/*",
   "resource_bundles": {
     "KKPodImageTest": [
-      "KKPodImageTest/Assets/**/*"
+      "KKPodImageTest/Assets/json",
+      "KKPodImageTest/Assets/*.xcassets",
+      "KKPodImageTest/Assets/plist"
     ]
   }
 }

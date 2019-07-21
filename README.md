@@ -61,11 +61,19 @@ bundleName
 
 
 
+第三种方法
 
 
 
+[UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil]
+
+![image-20190721112010788](/Users/keke/Library/Application Support/typora-user-images/image-20190721112010788.png)
 
 
+
+[UIImage imageNamed:[NSString stringWithFormat:@"KKPodImageTest.bundle/%@",imageName]] 加载不出来
+
+![image-20190721112217877](/Users/keke/Library/Application Support/typora-user-images/image-20190721112217877.png)
 
 
 
