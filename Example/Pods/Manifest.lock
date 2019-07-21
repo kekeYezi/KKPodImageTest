@@ -1,0 +1,16 @@
+PODS:
+  - KKPodImageTest (0.1.0)
+
+DEPENDENCIES:
+  - KKPodImageTest (from `../`)
+
+EXTERNAL SOURCES:
+  KKPodImageTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKPodImageTest: ce2832184daf4a7b0c9e0e5cee553d7ef5551c3c
+
+PODFILE CHECKSUM: 23cd31e83901b1f32d6b2d6a4c199b0f631f611d
+
+COCOAPODS: 1.6.1

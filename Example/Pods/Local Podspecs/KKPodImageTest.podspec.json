@@ -1,0 +1,22 @@
+{
+  "name": "KKPodImageTest",
+  "version": "0.1.0",
+  "summary": "A short description of KKPodImageTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kekeyezi/KKPodImageTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kekeyezi": "yebin@gtjas.com"
+  },
+  "source": {
+    "git": "https://github.com/kekeyezi/KKPodImageTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KKPodImageTest/Classes/**/*"
+}
