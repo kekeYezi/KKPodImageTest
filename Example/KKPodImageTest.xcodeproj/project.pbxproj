@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A03B71C322E404160078803D /* UIImage+KKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B71C222E404160078803D /* UIImage+KKTest.m */; };
 		A8FEAC3CA107B4494917E94A /* Pods_KKPodImageTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B54C8E27A9C9914F74D5A /* Pods_KKPodImageTest_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		387B54C8E27A9C9914F74D5A /* Pods_KKPodImageTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKPodImageTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DF3AAE5A88CE0191769883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		49DF3AAE5A88CE0191769883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4A1691BE1DB0B9918E6B5DA2 /* Pods_KKPodImageTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKPodImageTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C26EEC365FE85E2882C7FF /* Pods-KKPodImageTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPodImageTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKPodImageTest_Example/Pods-KKPodImageTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KKPodImageTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPodImageTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +63,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		68FBF1CFB718EEC3D875D2B5 /* Pods-KKPodImageTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPodImageTest_Example.release.xcconfig"; path = "Target Support Files/Pods-KKPodImageTest_Example/Pods-KKPodImageTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79FA089A45057569D02C747C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		79FA089A45057569D02C747C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A03B71C122E404160078803D /* UIImage+KKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KKTest.h"; sourceTree = "<group>"; };
+		A03B71C222E404160078803D /* UIImage+KKTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KKTest.m"; sourceTree = "<group>"; };
 		DB0BFC094CB9CEEF0AED45C4 /* Pods-KKPodImageTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPodImageTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKPodImageTest_Tests/Pods-KKPodImageTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6DFAFAFA8F75BECA6560B1D /* KKPodImageTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKPodImageTest.podspec; path = ../KKPodImageTest.podspec; sourceTree = "<group>"; };
+		E6DFAFAFA8F75BECA6560B1D /* KKPodImageTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKPodImageTest.podspec; path = ../KKPodImageTest.podspec; sourceTree = "<group>"; };
 		E7A94D1E67C744A98821D796 /* Pods-KKPodImageTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPodImageTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKPodImageTest_Tests/Pods-KKPodImageTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +106,6 @@
 				E7A94D1E67C744A98821D796 /* Pods-KKPodImageTest_Tests.debug.xcconfig */,
 				DB0BFC094CB9CEEF0AED45C4 /* Pods-KKPodImageTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KKViewController.h */,
 				6003F5A6195388D20070C39A /* KKViewController.m */,
+				A03B71C122E404160078803D /* UIImage+KKTest.h */,
+				A03B71C222E404160078803D /* UIImage+KKTest.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				78E47E4B5DF65205C4B37211 /* [CP] Embed Pods Frameworks */,
+				DC7BF098D2F2898715756DCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,28 +322,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78E47E4B5DF65205C4B37211 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KKPodImageTest_Example/Pods-KKPodImageTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KKPodImageTest/KKPodImageTest.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KKPodImageTest.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKPodImageTest_Example/Pods-KKPodImageTest_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B78DC4CD927391E558234015 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +344,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DC7BF098D2F2898715756DCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKPodImageTest_Example/Pods-KKPodImageTest_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/KKPodImageTest/KKPodImageTest.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KKPodImageTest.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKPodImageTest_Example/Pods-KKPodImageTest_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -369,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
+				A03B71C322E404160078803D /* UIImage+KKTest.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

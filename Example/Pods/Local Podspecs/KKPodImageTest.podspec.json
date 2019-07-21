@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KKPodImageTest/Classes/**/*"
+  "source_files": "KKPodImageTest/Classes/**/*",
+  "resource_bundles": {
+    "KKPodImageTest": [
+      "KKPodImageTest/Assets/**/*"
+    ]
+  }
 }
