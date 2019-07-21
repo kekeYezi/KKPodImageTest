@@ -15,11 +15,11 @@
     NSString *bundlePath = [[NSBundle bundleForClass:NSClassFromString(@"KKPodImageTest")].resourcePath stringByAppendingPathComponent:@"KKPodImageTest.bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     NSLog(@"%@", bundlePath);
-//    resultImage = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    resultImage = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
     
 //        resultImage = [UIImage imageNamed:[NSString stringWithFormat:@"KKPodImageTest.bundle/%@",imageName]];
     
-    resultImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]];
+//    resultImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]];
     
     //    return [self wg_imgWithName:imageName bundle:@"ModuleNews" targetClass:[self class]];
     if (resultImage) {
